@@ -126,10 +126,10 @@ async def spam(e):
             return await e.reply(usage)
         smex = await e.get_reply_message()
         Deadly = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        Deadlysexy = Deadly[1:]
-        if len(Deadlysexy) == 2:
-            message = str(Deadlysexy[1])
-            counter = int(Deadlysexy[0])
+        Deadly = Deadly[1:]
+        if len(Deadly) == 2:
+            message = str(Deadly[1])
+            counter = int(Deadly[0])
             sleeptime = float(Deadly[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
@@ -139,7 +139,7 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:
-            counter = int(Deadlysexy[0])
+            counter = int(Deadly[0])
             sleeptime = float(Deadly[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
@@ -148,7 +148,7 @@ async def spam(e):
                 await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            counter = int(Deadlysexy[0])
+            counter = int(Deadly[0])
             sleeptime = float(Deadly[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
@@ -291,8 +291,8 @@ async def spam(e):
             user = str(BOToeL[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in BOToeLX:
-                text = f"I can't raid on @BOToeLX's Owner"
+            if int(g) in Deadly:
+                text = f"I can't raid on Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is the owner Of these Bots."
@@ -324,8 +324,8 @@ async def spam(e):
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in BOToeLX:
-                text = f"I can't raid on @BOToeLX's Owner"
+            if int(g) in Deadly:
+                text = f"I can't raid on Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
                 text = f"This guy is the owner Of these Bots."
