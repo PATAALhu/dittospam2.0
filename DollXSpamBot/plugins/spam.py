@@ -357,7 +357,7 @@ async def spam(e):
             await e.reply(usage)
 
 
-I @BOT0.on(events.CallbackQuery(pattern=r"dekhlo"))
+@BOT0.on(events.CallbackQuery(pattern=r"dekhlo"))
 @BOT1.on(events.CallbackQuery(pattern=r"dekhlo"))
 @BOT2.on(events.CallbackQuery(pattern=r"dekhlo"))
 @BOT3.on(events.CallbackQuery(pattern=r"dekhlo"))
