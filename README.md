@@ -19,7 +19,7 @@
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/dominator454/BOTDEPLOY"><img align="center" alt="Heroku" width="92px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
 
-## [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/roFaKm?referralCode=uT7IB5)
+## [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3FQMmO?referralCode=uT7IB5)
 
 #### [THIS ALSO FOR HEROKU](https://heroku.com/deploy?template=https://github.com/dominator454/BOTDEPLOY) 
 
