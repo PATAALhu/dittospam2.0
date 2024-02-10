@@ -31,8 +31,7 @@
 
 <b>This SpamBot Is Fully Created On Telethon And Working With Telethon So Bot Is Fully Safe To Deploy, We Gives Deployment To Heroku And Also In Vps For Better Spam Experience</b>
 
-# CᴏɴᴛʀɪBᴜᴛᴏʀꜱ
-
-![GitHub Contributors Image](https://contrib.rocks/image?repo=Team-Deadly/DEADLY-SPAMBOT)
+# Credit
+*RiZoel*
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
