@@ -1,5 +1,5 @@
 {
-    "name": "𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩",
+    "name": "⩔ɨp 𝗗ɨƬƬ𝗼",
     "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
     "logo": "",
     "keywords": [
@@ -9,9 +9,6 @@
         "deadlySameer",
         "SpamBots"
     ],
-    "repository": "https://github.com/dominator454/DEADLY-SPAMBOT",
-    "website": "https://github.com/dominator454/DEADLY-SPAMBOT",
-    "success_url": "https://github.com/dominator454/DEADLY-SPAMBOT",
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
