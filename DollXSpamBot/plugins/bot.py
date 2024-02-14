@@ -15,15 +15,15 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
+DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/985195b48827ea364ef41.jpg"
 
 
-DOLL = "✯ 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀 ✯\n\n"
-DOLL += f"**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL = "✯ 𝙑𝙄𝙋 𝘿𝙄𝙏𝙏𝙊 𝙎𝙋𝘼𝙈 𝙃𝙀𝙍𝙀 ✯\n\n"
+DOLL += f"** 🦋 𝘔𝘈𝘋𝘌 𝘉𝘠 𝘝𝘐𝘗 𝘋𝘐𝘛𝘛𝘖 🦋 **\n"
 DOLL += f"═══════════════════\n"
-DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `3.10.1`\n"
-DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `{version.__version__}`\n"
-DOLL += f"• **𝙳𝙾𝙻𝙻 𝚇 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
+DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 ⩔єяនɨ០ɳ** : `3.10.1`\n"
+DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 ⩔єяនɨ០ɳ** : `{version.__version__}`\n"
+DOLL += f"• **𝗗ιттσ ⩔єяនɨ០ɳ**  : `{deadlyversion}`\n"
 DOLL += f"═══════════════════\n\n"   
 
                                   
@@ -35,11 +35,11 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot"),
-        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/DollxSpam_BOT")
+        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/PATAAL_STORE_OP"),
+        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/PATAAL_NAGRI")
         ],
         [
-        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/DOMINATOR-XD/DollXSpamBot")
+        Button.url("• EXTRA HELP •", "https://t.me/Ditto_999")
         ]
         ]
         )
@@ -88,7 +88,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n ⚡️𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀⚡️ \n\n ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂ \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
+        await event.edit(f" ⚡️✯ 𝙑𝙄𝙋 𝘿𝙄𝙏𝙏𝙊 𝙎𝙋𝘼𝙈 𝙃𝙀𝙍𝙀 ✯⚡️ \n\n 🦋 𝘔𝘈𝘋𝘌 𝘉𝘠 𝘝𝘐𝘗 𝘋𝘐𝘛𝘛𝘖 🦋 \n\n❤️ `{ms}` 𝗺𝘀 ❤️")
         
         
 
