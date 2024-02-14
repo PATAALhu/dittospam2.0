@@ -18,7 +18,7 @@ OWNER_NAME = getenv("OWNER_NAME")
 
 SUDO_USER= list(
 
-    map(int, getenv("SUDO_USER", "5937170640").split())
+    map(int, getenv("SUDO_USER", "6731047041").split())
 
 )
 
@@ -29,12 +29,12 @@ f("CMD_HNDLR")
 
 LUND = list(
 
-    map(int, getenv("LUND", "123456789").split())
+    map(int, getenv("LUND", "6731047041").split())
 
 )
 
 CHUT = list(
 
-    map(int, getenv("CHUT", "1234576789").split())
+    map(int, getenv("CHUT", "6731047041").split())
 
 )
