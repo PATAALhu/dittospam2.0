@@ -19,11 +19,11 @@
 
 ## [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/3FQMmO?referralCode=uT7IB5)
 
-#### [THIS ALSO FOR HEROKU](https://heroku.com/deploy?template=https://github.com/dominator454/BOTDEPLOY) 
+#### [THIS ALSO FOR HEROKU](https://heroku.com/deploy?template=https://github.com/PATAALhu/dittospam2.0) 
 
-## What Is DollX_SpamBot
+## What Is Vip Ditto spam
 
-<b>DollX_SpamBot Is An Telethon Bassed SpamBot That Spam In Telegram Groups And personal Chats, this bot is specially used by clan users when ever fights starts between two clan or between two users</b>
+<b>Vip Ditto spambot Is An Telethon Bassed SpamBot That Spam In Telegram Groups And personal Chats, this bot is specially used by clan users when ever fights starts between two clan or between two users</b>
 
 ## Is Safe To Deploy
 
