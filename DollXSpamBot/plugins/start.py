@@ -10,11 +10,11 @@ DOLL_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9
 
 Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Dollx_spambot"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/DollxSpam_BOT")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/PATAAL_STORE_OP"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/PATAAL_NAGRI")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/dominator454/DollXSpamBot")
+        Button.url("• OWNER🦅 •", "https://t.me/Ditto_999")
         ]
         ]
         
@@ -38,16 +38,16 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[⏤‌❥‌ 🖤𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ¤‌๋‌ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ𖣔ꠋꠋ𑲭𑲭𑲭🦋⃟≛⃝🖤҉𓆩⍣⃟N1x乛DÕLL𓆪‌⍣⃟❤︎𓆪‌⍣⃟𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭](https://t.me/N1xDOLL)"
+        creator = f"[⩔ɨp 𝗗ɨƬƬ𝗼](https://t.me/Ditto_999)"
         DOLL_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴅᴏʟʟXsᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs⚡ 𝙑𝙄𝙋 𝘿𝙄𝙏𝙏𝙊 𝙎𝙋𝘼𝙈⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
-ᴛʜɪs ʙᴏᴛ ɪs ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂
+ᴛʜɪs ʙᴏᴛ ɪs 𝘔𝘈𝘋𝘌 𝘉𝘠 𝘝𝘐𝘗 𝘋𝘐𝘛𝘛𝘖
 
 ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
 
-ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- {creator}
+ᴄᴏᴅᴇ ᴄʀᴇᴀᴛᴏʀ:- [OWNER](buttonurl:https://t.me/Ditto_999)
 
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴀᴄᴄᴇss sᴜᴘᴘᴏʀᴛ ,ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʀᴇᴘᴏ!
     """
