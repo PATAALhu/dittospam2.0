@@ -5,13 +5,13 @@ from time import time
 from datetime import datetime
 from DollXSpamBot import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/a21ba38c03755bce23bb6.jpg"
+HELP_PIC = "https://telegra.ph/file/985195b48827ea364ef41.jpg"
 
-DOLL_Help = "🔥 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝘽𝙤𝙩 🔥\n\n"
+DOLL_Help = "🔥 𝙑𝙄𝙋 𝘿𝙄𝙏𝙏𝙊 𝙎𝙋𝘼𝙈 🔥\n\n"
 
-DOLL_Help = "**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL_Help = "**🦋𝘔𝘈𝘋𝘌 𝘉𝘠 𝘝𝘐𝘗 𝘋𝘐𝘛𝘛𝘖🦋**\n"
  
-DOLL_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴅᴏʟʟ ✘ sᴘᴀᴍ ʙᴏᴛ__\n\n"
+DOLL_Help += f"__ᴄᴍɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ 𝙑𝙄𝙋 𝘿𝙄𝙏𝙏𝙊 ✘ sᴘᴀᴍ ʙᴏᴛ__\n\n"
 
 DOLL_Help += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -31,7 +31,7 @@ DOLL_Help += f" `!hang` - 😂 ↧\n\n"
 
 DOLL_Help += f" `!bspam` - 𝗕𝗜𝗥𝗧𝗛𝗗𝗔𝗬 𝗦𝗣𝗔𝗠🥵 ↧\n\n"
 
-DOLL_Help += f"© @Dollx_spambot\n"
+DOLL_Help += f"© @PATAAL_NAGRI\n"
 
 
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -42,7 +42,7 @@ async def help(event):
                                   caption=DOLL_Help,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot")
+        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/PATAAL_STORE_OP")
         ] 
         ]
         )
